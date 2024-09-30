@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    border: 2px solid black;
+    padding: 20px;
+}
+.ramya{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+justify-content: space-around;
+background-color:greenyellow;
+height: 50px;
+align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+ nav ul a{
+    margin-right: 60px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.img, .img1{
+    background-color: aqua;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+}
+.img p{
+   text-align: center;
+   margin-top: -150px;
+   font-size: 20px;  
+}
+.form h1{
+    text-align: center;
+}
+.form{
+    display: flex;
+    margin-left: 22%;
+}
+
+.ss{
+    background-color: lightpink;
+    border: 5px solid black;
+    padding: 50px;
+}
+.kkk{
+    background-color: lightpink;
+    border: 5px solid black;
+    padding: 15px;
+
+}
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+.container a:hover{
+    color: red;
+    background-color: white;
+}
+ button:hover{
+    color: blue;
+    background-color: azure;
+    box-shadow: 0 0 12px red;
+}
+.ss button{
+    margin-left: 50px;
+}
